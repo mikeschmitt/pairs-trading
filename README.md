@@ -7,6 +7,9 @@ STATISTICS CONCEPTS:
   - Cointegration
   - Unit Roots
   - Augmented Dickey–Fuller Test
+    - If L (lags) is too small, then remaining serial correlation in errors will bias the test.
+    - If L is too large, then power of test will suffer.
+    - Usually better to include too many lags than too few.
 
 FINANCE CONCEPTS:
   - Pairs Trading
@@ -29,3 +32,6 @@ COMPLETED:
   - Cointegration Function
   - ADF Test Function
   - Gather Stock History Function
+
+ADDITIONAL NOTES:
+  - Google's R style guide recommends UpperCamelCase for function naming and period.separated for variable naming.
